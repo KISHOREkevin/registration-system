@@ -21,5 +21,5 @@ Frontend technologies such as
 </div>
 <div>
   <p>Check out project below 👇👇</p>
-https://registration-system.onrender.com/
+  <a href="https://registration-system.onrender.com/" target="_blank">https://registration-system.onrender.com/</a>
 </div>
