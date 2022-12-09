@@ -19,7 +19,7 @@ Frontend technologies such as
 <li>Javascript</li>
 </ul>
 </div>
-<pre>
+<div>
 Check out project below 👇👇
 https://registration-system.onrender.com/
-</pre>
+</div>
