@@ -1,0 +1,28 @@
+<%-include("header")%>
+<div class="container">
+	<table class="table">
+		<tr>
+			<th style="border:2px solid black; text-align: center;">S.no</th>
+			<th style="border:2px solid black; text-align: center;">Name</th>
+			<th style="border:2px solid black; text-align: center;">Phone Number</th>
+			<th style="border:2px solid black; text-align: center;">Years of Experience</th>
+		</tr>
+		
+		<%for (var i = 0; i < regname.length; i++) {%>
+			<tr>
+				<td style="border:2px solid black; text-align: center;"><%=i+1%></td>
+				<td style="border:2px solid black; text-align: center;"><%=regname[i]%></td>
+				<td style="border:2px solid black; text-align: center;"><%=phno[i]%></td>
+				<td style="border:2px solid black; text-align: center;"><%=yoe[i]%></td>
+			<tr>
+		<%}%>
+			
+		
+		
+		
+	</table>
+	<a href="/"><button type="button" class="btn btn-primary">Go back</button></a>
+	<a href="/delete"><button type="button" class="btn btn-primary">Delete</button></a>
+	<a href="/update"><button type="button" class="btn btn-primary">Update</button></a>
+	</div>
+<%-include("footer")%>
