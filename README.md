@@ -20,6 +20,6 @@ Frontend technologies such as
 </ul>
 </div>
 <div>
-Check out project below 👇👇
+  <p>Check out project below 👇👇</p>
 https://registration-system.onrender.com/
 </div>
